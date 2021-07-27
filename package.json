@@ -1,0 +1,19 @@
+{
+  "name": "simple-messenger-blocks",
+  "version": "1.0.0",
+  "description": "This npm package generates common messenger chatbot blocks(buttons, texts, images, cards, grouped button containers) ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "messenger",
+    "chatbot",
+    "cards",
+    "images",
+    "buttons",
+    "messenger-platform"
+  ],
+  "author": "Tripto Afsin",
+  "license": "ISC"
+}
