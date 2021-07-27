@@ -2,7 +2,7 @@
 
 This npm package generates common messenger chatbot blocks(buttons, texts, images, cards, grouped button containers) for Node JS
 
-I know that writing messenger chatbot response object blocks can be bit repetitive, and it leads to messy code. I'm a the creator of [BUTEX NoteBOT](https://github.com/TriptoAfsin/notebot-engine-v1) and I myself faced these issues, so I made this object generators to simplify my workflow and might help you as well 😀
+I know that writing messenger chatbot response object blocks can be bit repetitive, and it leads to messy code. I'm the creator of [BUTEX NoteBOT](https://github.com/TriptoAfsin/notebot-engine-v1) and I myself faced these issues, so I made this object generators to simplify my workflow and might help you as well 😀
 
 ### Available Blocks - 
 1. Text Block
@@ -15,7 +15,6 @@ I know that writing messenger chatbot response object blocks can be bit repetiti
 
 ```
 npm i simple-messenger-blocks
-
 ```
 
 ### Usage - 
