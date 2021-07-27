@@ -14,7 +14,7 @@ I know that writing messenger chatbot response object blocks can be bit repetiti
 ### How To Install - 
 
 ```
-
+npm i simple-messenger-blocks
 
 ```
 
