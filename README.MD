@@ -23,7 +23,7 @@ npm i simple-messenger-blocks
 1. **Text Block** - 
 
 ```javascript
-let {textBlockGen} = require('./index')
+let {textBlockGen} = require('simple-messenger-blocks')
 
 
 textBlockGen("Hello 😀") // this function accepts a parameter of string
@@ -36,7 +36,7 @@ textBlockGen("Hello 😀") // this function accepts a parameter of string
 
 ```javascript
 
-let {imgBlockGen} = require('./index')
+let {imgBlockGen} = require('simple-messenger-blocks')
 
 imgBlockGen("url of your image") //this function accepts a param of string(url)
 
@@ -48,7 +48,7 @@ imgBlockGen("url of your image") //this function accepts a param of string(url)
 
 ```javascript
 
-let {cardGenerator, webBtnGen} = require('./index')
+let {cardGenerator, webBtnGen} = require('simple-messenger-blocks')
 
 
 cardGenerator(
@@ -69,7 +69,7 @@ cardGenerator(
 
 ```javascript
 
-let {groupedBtnBlockGen, payloadBtnGen} = require('./index')
+let {groupedBtnBlockGen, payloadBtnGen} = require('simple-messenger-blocks')
 
 
 groupedBtnBlockGen(`🔰 Select Topic for PHY-I - `,
@@ -88,7 +88,7 @@ groupedBtnBlockGen(`🔰 Select Topic for PHY-I - `,
 
 ```javascript
 
-let {quickReplyBlockGen, payloadBtnGen} = require('./index')
+let {quickReplyBlockGen, payloadBtnGen} = require('simple-messenger-blocks')
 
 
 quickReplyBlockGen(
