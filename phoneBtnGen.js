@@ -1,12 +1,12 @@
 let lengthValidator = require("./validators/lengthValidator");
 
 //for web link buttons
-let webBtnGen = (title, url) => {
+let phoneBtnGen = (title, phoneNo) => {
   return {
-    type: "web_url",
-    url: url,
+    type: "phone_number",
     title: lengthValidator(title, 15),
+    payload: phoneNo,
   };
 };
 
-module.exports = webBtnGen;
+module.exports = phoneBtnGen;
