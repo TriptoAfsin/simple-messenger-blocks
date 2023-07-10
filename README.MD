@@ -7,9 +7,12 @@ I know that writing messenger chatbot response object blocks can be bit repetiti
 ### Available Blocks - 
 1. Text Block
 2. Grouped Button Block(url button + postback buttons)
-3. Card Block
+3. Single Card & Card Carousel
 4. Image Block 
 5. Quick Reply Block  
+6. Login & Logout Button
+7. Contact Button
+8. Persistent Menu
 
 ### How To Install - 
 
