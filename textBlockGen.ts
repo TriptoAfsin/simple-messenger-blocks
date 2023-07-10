@@ -1,10 +1,10 @@
 //let lengthValidator = require('./validators/lengthValidator');
 
 //for text blocks
-let textBlockGen = text => {
+let textBlockGen = (text: string) => {
   return {
     text: text,
   };
 };
 
-module.exports = textBlockGen;
+export default textBlockGen;

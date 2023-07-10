@@ -5,4 +5,4 @@ let logoutBtnGen = () => {
   };
 };
 
-module.exports = logoutBtnGen;
+export default logoutBtnGen;

@@ -1,7 +1,7 @@
 //let lengthValidator = require('./validators/lengthValidator');
 
 //groupedBtn block
-let persistentMenuGen = BtnObjArr => {
+let persistentMenuGen = (BtnObjArr: any[]) => {
   return {
     persistent_menu: [
       {
@@ -13,4 +13,4 @@ let persistentMenuGen = BtnObjArr => {
   };
 };
 
-module.exports = persistentMenuGen;
+export default persistentMenuGen;

@@ -1,7 +1,13 @@
-let lengthValidator = require("./validators/lengthValidator");
+import lengthValidator from "./validators/lengthValidator";
 
 //card block
-let singleCardGen = (imgUrl, title, subtitle, defaultLink, BtnObjArr) => {
+let singleCardGen = (
+  imgUrl: string,
+  title: string,
+  subtitle: string,
+  defaultLink: string,
+  BtnObjArr: any[]
+) => {
   if (BtnObjArr.length > 3) {
     console.warn(
       `⚠ Warning: Max btn(3) amount crossed! only 3 buttons were kept and rest were removed`
@@ -30,4 +36,4 @@ let singleCardGen = (imgUrl, title, subtitle, defaultLink, BtnObjArr) => {
   }
 };
 
-module.exports = singleCardGen;
+export default singleCardGen;

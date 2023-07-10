@@ -1,11 +1,11 @@
 //let lengthValidator = require('./validators/lengthValidator');
 
 //quick reply
-let quickReplyBlockGen = (title, quickRepliesArr) => {
+let quickReplyBlockGen = (title: string, quickRepliesArr: any[]) => {
   return {
     text: `${title}`,
     quick_replies: quickRepliesArr,
   };
 };
 
-module.exports = quickReplyBlockGen;
+export default quickReplyBlockGen;

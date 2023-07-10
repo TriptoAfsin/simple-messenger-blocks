@@ -1,7 +1,7 @@
 //let lengthValidator = require('./validators/lengthValidator');
 
 //img block
-let imgBlockGen = url => {
+let imgBlockGen = (url: string) => {
   return {
     attachment: {
       type: "image",
@@ -13,4 +13,4 @@ let imgBlockGen = url => {
   };
 };
 
-module.exports = imgBlockGen;
+export default imgBlockGen;

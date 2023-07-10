@@ -1,7 +1,7 @@
 //let lengthValidator = require('./validators/lengthValidator');
 
 //groupedBtn block
-let groupedBtnBlockGen = (headerText, BtnObjArr) => {
+let groupedBtnBlockGen = (headerText: string, BtnObjArr: any[]) => {
   if (BtnObjArr.length > 3) {
     console.warn(
       `⚠ Warning: Max btn(3) amount crossed! only 3 buttons were kept and rest were removed`
@@ -30,4 +30,4 @@ let groupedBtnBlockGen = (headerText, BtnObjArr) => {
   }
 };
 
-module.exports = groupedBtnBlockGen;
+export default groupedBtnBlockGen;

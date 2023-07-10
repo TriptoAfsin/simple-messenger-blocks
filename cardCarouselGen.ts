@@ -11,4 +11,4 @@ let cardCarouselGen = (cardArray = []) => {
   };
 };
 
-module.exports = cardCarouselGen;
+export default cardCarouselGen;

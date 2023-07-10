@@ -1,9 +1,9 @@
 //for login buttons
-let loginBtnGen = url => {
+let loginBtnGen = (url: string) => {
   return {
     type: "account_link",
     url: url,
   };
 };
 
-module.exports = loginBtnGen;
+export default loginBtnGen;
